@@ -3,16 +3,16 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #EEEEEE;  
+    background-color: rgb(255, 255, 255);  
     
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
 }
 
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -23,7 +23,7 @@ article {
 
 
 header {
-    color: rgb(43, 150, 16);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -48,8 +48,21 @@ img.eten {
 }
 
 img.ontbijt {
-   float: right
-  m
+   float: right;
+   margin-left: 15px;
+   width: 40%;
+}
+
+img.winter {
+  float: left;
+  margin-right: 15px;
+  width: 50%;
+}
+
+img. {
+  float: left;
+  margin-right: 10px;
+  width: 20%; 
 }
 
 .smalltext {
@@ -88,7 +101,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #aaaa;
 }
 
 nav li a.active {
