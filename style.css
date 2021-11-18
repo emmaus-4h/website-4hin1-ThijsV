@@ -44,27 +44,32 @@ img.zweefLinks {
 img.eten {
   float: right;
   margin-left: 15px;
-  width: 40%;
+  width: 30%;
 }
 
 img.ontbijt {
    float: right;
    margin-left: 15px;
-   width: 40%;
+   width: 30%;
 }
 
-img.winter {
-  float: left;
-  margin-right: 15px;
-  width: 50%;
+img.lunch {
+  float: right;
+  margin-left: 15px;
+  width: 30%;
 }
 
-img. {
-  float: left;
-  margin-right: 10px;
-  width: 20%; 
+img.avondeten {
+  float: right;
+  margin-left: 10px;
+  width: 30%; 
 }
 
+img.index-plaatje {
+  float: center;
+  margin: 15px;
+  width: 40%;
+}
 .smalltext {
     font-size: 0.7em;
 }
