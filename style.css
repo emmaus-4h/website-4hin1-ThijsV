@@ -1,4 +1,8 @@
-/* Basislayout */
+ /* Basislayout */
+
+* {
+  border: solid 2px black;
+}
 
 html, body {
     height: 100%;
@@ -12,7 +16,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 1000px;
+    width: 700px;
     position: relative;
 }
 
@@ -63,12 +67,14 @@ img.avondeten {
   float: right;
   margin-left: 10px;
   width: 30%; 
+  
 }
 
-img.index-plaatje {
-  float: center;
-  margin: 15px;
-  width: 40%;
+img.onderste {
+display: block;
+ width: 400px;
+ margin-left: auto;
+ margin-right: auto;
 }
 .smalltext {
     font-size: 0.7em;
