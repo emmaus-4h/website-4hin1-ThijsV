@@ -2,6 +2,7 @@
 
 * {
   border: solid 2px black;
+
 }
 
 html, body {
@@ -23,6 +24,8 @@ main {
 
 article {
     text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -51,30 +54,11 @@ img.eten {
   width: 30%;
 }
 
-img.ontbijt {
-   float: right;
-   margin-left: 15px;
-   width: 30%;
-}
-
-img.lunch {
-  float: right;
-  margin-left: 15px;
-  width: 30%;
-}
-
-img.avondeten {
-  float: right;
-  margin-left: 10px;
-  width: 30%; 
-  
-}
-
 img.onderste {
-display: block;
- width: 400px;
+ display: block;
  margin-left: auto;
  margin-right: auto;
+ width: 350px;
 }
 .smalltext {
     font-size: 0.7em;
