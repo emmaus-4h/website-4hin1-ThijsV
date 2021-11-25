@@ -1,7 +1,8 @@
- /* Basislayout */
-
-* {
+/* Basis instellingen */
+* { 
   border: solid 2px black;
+}
+ /* Basislayout */
 
 }
 
@@ -44,14 +45,13 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+width: 200px;
+float: left;
 }
 
-img.eten {
-  float: right;
-  margin-left: 15px;
-  width: 30%;
+img.zweefRechts {
+width: 400px;
+float: right; 
 }
 
 img.onderste {
@@ -62,6 +62,20 @@ img.onderste {
 }
 .smalltext {
     font-size: 0.7em;
+}
+
+.kolomLinks {
+  float: left;
+  width: 100px;
+}
+
+.kolomRechts {
+  float: left;
+  width: calc(100% - 100px - 40px);
+}
+
+.floatClear {
+  clear: both;
 }
 
 a {
