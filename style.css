@@ -1,3 +1,19 @@
+/*
+ * Handige instelligen om problemen te voorkomen
+ */
+
+ * {
+   /* zorg dat border meetelt bij de width en height van boxen */
+   box-sizing: border-box;
+   /* zorgt dat DIV de hoogte krijgt van wat erin zit 
+   /* overflow: auto; */
+   /* standaard marge 0 */
+   /*margin: 0px;*/
+ }
+
+ /*
+  * Handige 
+
 /* Basis instellingen */
 * { 
   border: solid 2px black;
@@ -25,8 +41,7 @@ main {
 
 article {
     text-align: justify;
-    padding-left: 10px;
-    padding-right: 10px;
+
 }
 
 
@@ -41,13 +56,18 @@ footer {
     padding-bottom: 10px;
 }
 
+kolomLinks {
+  float: left;
+  width: 200px;
+}
+
+kolomRechts {
+  float: left;
+  width: calc(100% - 100px - 40px);
+}
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-width: 200px;
-float: left;
-}
 
 img.zweefRechts {
 width: 400px;
@@ -64,15 +84,7 @@ img.onderste {
     font-size: 0.7em;
 }
 
-.kolomLinks {
-  float: left;
-  width: 100px;
-}
 
-.kolomRechts {
-  float: left;
-  width: calc(100% - 100px - 40px);
-}
 
 .floatClear {
   clear: both;
