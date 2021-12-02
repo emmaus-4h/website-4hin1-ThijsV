@@ -5,19 +5,23 @@
  * {
    /* zorg dat border meetelt bij de width en height van boxen */
    box-sizing: border-box;
-   /* zorgt dat DIV de hoogte krijgt van wat erin zit 
-   /* overflow: auto; */
+   /* zorgt dat DIV de hoogte krijgt van wat erin zit */
+   overflow: auto; 
    /* standaard marge 0 */
    /*margin: 0px;*/
  }
 
  /*
-  * Handige 
+  * Handige instellingen om fouten te zoeken
+  */
 
-/* Basis instellingen */
-* { 
-  border: solid 2px black;
+* {
+  /* zorg dat elke box eem gestippelde lijn krijgt, additive-symbols: */
+   border: 1px dotted black;
+  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, */
+  /* background-color: rgba(0,0,5%) ; */
 }
+
  /* Basislayout */
 
 }
@@ -34,7 +38,7 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 700px;
+    width: 1000px;
     position: relative;
 }
 
@@ -63,23 +67,17 @@ kolomLinks {
 
 kolomRechts {
   float: left;
-  width: calc(100% - 100px - 40px);
+  width: calc( 100% - 200px - 40px );
 }
 
 /* specifieke stijlen */
 
 
-img.zweefRechts {
-width: 400px;
-float: right; 
+img.zweefLinks {
+  float: left;
+  margin-right: 15px;
 }
 
-img.onderste {
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 350px;
-}
 .smalltext {
     font-size: 0.7em;
 }
