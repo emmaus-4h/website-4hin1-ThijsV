@@ -60,15 +60,6 @@ footer {
     padding-bottom: 10px;
 }
 
-kolomLinks {
-  float: left;
-  width: 200px;
-}
-
-kolomRechts {
-  float: left;
-  width: calc( 100% - 200px - 40px );
-}
 
 /* specifieke stijlen */
 
@@ -76,6 +67,16 @@ kolomRechts {
 img.zweefLinks {
   float: left;
   margin-right: 15px;
+}
+
+img.kolomLinks {
+  float: right;
+  margin-left: 15px;
+}
+
+img.plaatje-midden {
+margin-left: 35%;
+ 
 }
 
 .smalltext {
