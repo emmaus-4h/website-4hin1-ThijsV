@@ -64,12 +64,12 @@ footer {
 /* specifieke stijlen */
 
 
-img.zweefLinks {
+img.plaatje-links {
   float: left;
   margin-right: 15px;
 }
 
-img.kolomLinks {
+img.plaatje-rechts {
   float: right;
   margin-left: 15px;
 }
