@@ -67,23 +67,23 @@ footer {
 img.plaatje-links {
   float: left;
   margin-right: 15px;
+  width: 30%;
 }
 
 img.plaatje-rechts {
   float: right;
   margin-left: 15px;
+  width: 30%;
 }
 
 img.plaatje-midden {
-margin-left: 35%;
- 
+margin-left: 180px;
+width: 600px;
 }
 
 .smalltext {
     font-size: 0.7em;
 }
-
-
 
 .floatClear {
   clear: both;
