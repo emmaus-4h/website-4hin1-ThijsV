@@ -60,19 +60,28 @@ footer {
     padding-bottom: 10px;
 }
 
+.plaatje-links {
+  float: left;
+  width: 200px;
+}
+
+.kolomRechts {
+  float: left;
+  width: calc ( 100% - 200px );
+}
 
 /* specifieke stijlen */
 
 
-img.plaatje-links {
-  float: left;
-  margin-right: 15px;
-  width: 30%;
-}
-
 img.plaatje-rechts {
   float: right;
   margin-left: 15px;
+  width: 30%;
+}
+
+img.plaatje-links {
+  float: left;
+  margin-right: 15px;
   width: 30%;
 }
 
