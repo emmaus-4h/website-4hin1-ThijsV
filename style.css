@@ -1,29 +1,21 @@
-/*
- * Handige instelligen om problemen te voorkomen
- */
+/* Debung code */
+article {
+  border: solid 2px red;
+}
 
- * {
-   /* zorg dat border meetelt bij de width en height van boxen */
-   box-sizing: border-box;
-   /* zorgt dat DIV de hoogte krijgt van wat erin zit */
-   overflow: auto; 
-   /* standaard marge 0 */
-   /*margin: 0px;*/
- }
+img {
+  border: dotted 2px black;
+}
 
- /*
-  * Handige instellingen om fouten te zoeken
-  */
-
-* {
-  /* zorg dat elke box eem gestippelde lijn krijgt, additive-symbols: */
-   border: 1px dotted black;
-  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, */
-  /* background-color: rgba(0,0,5%) ; */
+p { 
+  border: dotted 2px green;
 }
 
  /* Basislayout */
 
+* {
+  overflow: auto;
+  box-sizing: border-box;
 }
 
 html, body {
@@ -45,7 +37,8 @@ main {
 
 article {
     text-align: justify;
-
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -60,34 +53,38 @@ footer {
     padding-bottom: 10px;
 }
 
-.plaatje-links {
-  float: left;
-  width: 200px;
-}
-
-.kolomRechts {
-  float: left;
-  width: calc ( 100% - 200px );
-}
-
 /* specifieke stijlen */
 
 
 img.plaatje-rechts {
   float: right;
+  width: 40%;
   margin-left: 15px;
-  width: 30%;
 }
 
 img.plaatje-links {
   float: left;
   margin-right: 15px;
-  width: 30%;
+  width: 40%
+}
+
+img { 
+   width: 100%;
 }
 
 img.plaatje-midden {
-margin-left: 180px;
-width: 600px;
+padding: 10px;
+}
+
+.kolomrechts {
+  float: right;
+  width: calc( 100% - 200px);
+}
+
+.kolomLinks {
+  float: left;
+  width: calc ( 100% - 200px);
+
 }
 
 .smalltext {
@@ -101,6 +98,11 @@ width: 600px;
 a {
     color: rgb(43, 150, 16);
     text-decoration: none;
+}
+
+p {
+  padding: 5px;
+  margin: 5px;
 }
 
 a:hover {
